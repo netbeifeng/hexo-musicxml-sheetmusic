@@ -1,0 +1,8 @@
+g.vf-stavenote:hover .vf-note .vf-stem path, g.vf-stavenote:hover .vf-note .vf-notehead path, g.vf-stavenote:hover .vf-modifiers path{
+	stroke: coral;
+	fill: coral;
+}
+
+div#osmdCanvas div svg text {
+	font-family: Verdana, 黑体, Gothic ,Gulim;
+}
