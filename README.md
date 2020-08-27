@@ -6,7 +6,7 @@ Embed a **sheet music** form a **local / online musicXML** file on your [Hexo](h
 
 读取musicXML文件，并在 hexo 文章中显示。使用 osmd 的渲染引擎。根据需求可以设置是否加载播放器。
 
-Demo Musicxml: [A little white boat / 小白船](https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.5/A_little_white_boat.musicxml)
+Demo Musicxml: [A little white boat / 小白船](https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.6/A_little_white_boat.musicxml)
 
 More Musicxml here: [Musicxml Example-Set](https://www.musicxml.com/music-in-musicxml/example-set/)
 
