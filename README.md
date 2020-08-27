@@ -8,15 +8,15 @@ Embed a **sheet music** form a **local / online musicXML** file on your [Hexo](h
 
 Demo Musicxml: [A little white boat / 小白船](https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.6/A_little_white_boat.musicxml)
 
-More Musicxml here: [Musicxml Example-Set](https://www.musicxml.com/music-in-musicxml/example-set/)
+More Musicxml here: [Musicxml Example-Set / 更多的 MusicXML 文件范例](https://www.musicxml.com/music-in-musicxml/example-set/)
 
 ## Demo without Player / 不带播放器的实例
 
-![](https://s1.ax1x.com/2020/08/26/d22BwR.png)
+![](https://github.com/netbeifeng/hexo-musicxml-sheetmusic/blob/master/pic/demo_without_player.png)
 
 ## Demo with Player / 带播放器的实例
 
-![](https://s1.ax1x.com/2020/08/26/d22dOJ.png)
+![](https://github.com/netbeifeng/hexo-musicxml-sheetmusic/blob/master/pic/demo_with_player.png)
 
 ## Installation / 安装
 ![Install](https://nodei.co/npm/hexo-musicxml-sheetmusic.png?downloads=true&downloadRank=true&stars=true)
