@@ -12,7 +12,7 @@ hexo.extend.tag.register('musicxml', function (args) {
     if(loadPlayer === "true") {
         console.log("Load With Player!");
         var css = util.htmlTag('link', {
-            href: 'https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.6/css/osmd-c.css',
+            href: 'https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.7/css/osmd-c.css',
             rel: 'stylesheet'
         });
 
@@ -22,11 +22,11 @@ hexo.extend.tag.register('musicxml', function (args) {
         },"<label style='position: relative;right: 25%;top: 150%;'>Loading...</label>",false);
 
         var pdfKit_js = util.htmlTag('script',{
-            src: 'https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.6/libs/pdfkit.js'
+            src: 'https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.7/libs/pdfkit.js'
         },"",false);
 
         var blobStream_js = util.htmlTag('script',{
-            src: 'https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.6/libs/blobstream.js'
+            src: 'https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.7/libs/blobstream.js'
         },"",false);
 
         var svg_pdfKit_js = util.htmlTag('script',{
@@ -34,11 +34,11 @@ hexo.extend.tag.register('musicxml', function (args) {
         },"",false);
 
         var mxl2midi_js = util.htmlTag('script', {
-            src: "https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.6/libs/gjs.js"
+            src: "https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.7/libs/gjs.js"
         },"",false);
 
         var osmd_app_js = util.htmlTag('script',{
-            src: 'https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.6/libs/osmd-app.min.js'
+            src: 'https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.7/libs/osmd-app.min.js'
         }, "",false);
 
         var jquery_js = util.htmlTag('script',{
@@ -71,7 +71,7 @@ hexo.extend.tag.register('musicxml', function (args) {
         console.log("Load Without Player!");
 
         var css = util.htmlTag('link', {
-            href: 'https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.6/css/osmd-c.css',
+            href: 'https://cdn.jsdelivr.net/npm/hexo-musicxml-sheetmusic@0.0.7/css/osmd-c.css',
             rel: 'stylesheet'
         });
 
