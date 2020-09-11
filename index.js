@@ -16,6 +16,8 @@ hexo.extend.tag.register('musicxml', function (args) {
             rel: 'stylesheet'
         });
 
+        var font_awesome_css = '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">';
+
         var loding_box = util.htmlTag('div', {
             class: "boxLoading",
             id: "loading"
@@ -57,7 +59,7 @@ hexo.extend.tag.register('musicxml', function (args) {
                 var osmdCanvas = util.htmlTag('div', {
                     id: 'osmdCanvas'
                 }, loding_box + _canvas, false);
-            return css + _js_bundle +  "<script type='text/javascript' src='" + cdn + "'></script>" + osmdCanvas + script + osmd_app_js;
+            return font_awesome_css + css + _js_bundle +  "<script type='text/javascript' src='" + cdn + "'></script>" + osmdCanvas + script + osmd_app_js;
             });
         } else {
             var text = getLocalMusicXML(musicxml);
@@ -65,7 +67,7 @@ hexo.extend.tag.register('musicxml', function (args) {
             var osmdCanvas = util.htmlTag('div', {
                 id: 'osmdCanvas'
             }, loding_box + _canvas, false);
-            return css + _js_bundle +  "<script type='text/javascript' src='" + cdn + "'></script>" + osmdCanvas + script + osmd_app_js;
+            return font_awesome_css + css + _js_bundle +  "<script type='text/javascript' src='" + cdn + "'></script>" + osmdCanvas + script + osmd_app_js;
         }
     } else {
         console.log("Load Without Player!");
